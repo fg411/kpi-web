@@ -1,0 +1,188 @@
+@import '~mand-mobile/components/_style/mixin/util'
+@import '~mand-mobile/components/_style/mixin/theme.components'
+@import '~mand-mobile/components/_style/mixin/theme.basic'
+@import '~nib/lib/nib/vendor'
+@import '~nib/lib/nib/gradients'
+
+//color-primary = #00AF3B
+total-color = #FF459ED8
+spirit-color = #F19546
+value-color = #8BC34A
+skill-color = #00BCD4
+
+total-bgc = #D0E4F2
+spirit-bgc = #FDEFE3
+value-bgc = #EEF6E4
+skill-bgc = #E3F7F9
+
+lg = .3rem
+
+*
+  margin 0
+  padding 0
+  list-style none
+  box-sizing border-box
+  font-size .26rem
+body{
+  padding-top: constant(safe-area-inset-top);   //为导航栏+状态栏的高度 88px
+  padding-left: constant(safe-area-inset-left);   //如果未竖屏时为0
+  padding-right: constant(safe-area-inset-right); //如果未竖屏时为0
+  padding-bottom: constant(safe-area-inset-bottom);//为底下圆弧的高度 34px
+}
+.border-sm
+  border-radius .08rem
+
+.border
+  border-radius 0.12rem
+
+.border-lg
+  border-radius 0.16rem
+
+.mt-sm
+  margin-top .05rem
+
+.mt
+  margin-top .1rem
+
+.mt-lg
+  margin-top lg
+
+.mb-sm
+  margin-bottom .05rem
+
+.mb
+  margin-bottom .1rem
+
+.mb-lg
+  margin-bottom lg
+
+.ml-sm
+  margin-left 0.05rem
+
+.ml
+  margin-left 0.1rem
+
+.ml-lg
+  margin-left lg
+
+.mr-sm
+  margin-right .05rem
+
+.mr
+  margin-right .1rem
+
+.mr-lg
+  margin-right lg
+
+.mar-sm
+  margin .05rem
+
+.mar
+  margin 0.1rem
+
+.mar-lg
+  margin lg
+
+.pt-sm
+  padding-top 0.05rem
+
+.pt
+  padding-top 0.1rem
+
+.pt-lg
+  padding-top lg
+
+.pb-sm
+  padding-bottom 0.05rem
+
+.pb
+  padding-bottom 0.1rem
+
+.pb-lg
+  padding-bottom lg
+
+.pl-sm
+  padding-left 0.05rem
+
+.pl
+  padding-left 0.1rem
+
+.pl-lg
+  padding-left lg
+
+.pr-sm
+  padding-right 0.05rem
+
+.pr
+  padding-right 0.1rem
+
+.pr-lg
+  padding-right lg
+
+.pad-sm
+  padding 0.05rem
+
+.pad
+  padding 0.1rem
+
+.pad-lg
+  padding lg
+
+.card
+  background-color #FFF
+
+.md-field
+  padding-top 0
+  padding-bottom 0
+
+.md-cell-item-body
+  min-height 1rem
+  padding-top 0
+  padding-bottom 0
+
+.md-tab-bar
+  padding-left 0
+  padding-right 0
+
+.md-tab-bar-item
+  min-height 0.9rem
+  font-size 0.3rem
+
+.md-activity-indicator-rolling .content span {
+  font-size 0.2rem
+}
+
+.md-activity-indicator-rolling .content span span {
+  font-size 0.26rem
+}
+
+.md-result-image img {
+  margin-bottom 0
+}
+.manager_page .md-tab-bar {
+  border-top-left-radius 0.16rem;
+  border-top-right-radius 0.16rem;
+}
+.manager_page .md-tab-bar-list {
+  border-top-left-radius 0.16rem;
+  border-top-right-radius 0.16rem;
+}
+.manager_page .md-tab-bar-item {
+  background-color #F3F6F9;
+  border-top-left-radius 0.16rem;
+  border-top-right-radius 0.16rem;
+}
+.manager_page .md-tab-bar-item.is-active {
+  background-color #FFF;
+  border-top-left-radius 0.16rem;
+  border-top-right-radius 0.16rem;
+}
+.manager_page .md-tab-bar-ink {
+  background none;
+}
+.manager_page .md-tab-bar-item.is-disabled{
+  color: #F3F6F9;
+}
+.md-scroll-view-more {
+  padding: 0.2rem 0;
+}
